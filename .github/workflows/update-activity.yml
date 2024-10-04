@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update GitHub Activity
-        uses: TheDanniCraft/activity-log@v1
+        uses: NinjaCodeCpp/JiraTest@v1
         with:
-          GITHUB_USERNAME: "thedannicraft"
+          GITHUB_USERNAME: "JTtNinjaCode"
           GITHUB_TOKEN: ${{ secrets.ACTION_TEST }}  # Ensure this matches the secret name in repository settings
